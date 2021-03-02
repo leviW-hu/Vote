@@ -1,0 +1,138 @@
+<!-- fragment_edit_name.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/edit_name"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Válassz a lehetőségek közül!" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/rg_vote_dialog_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center|center_horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_vote1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. lehetőség" />
+
+            <RadioButton
+                android:id="@+id/rb_vote2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. lehetőség" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_vote_dialog_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:clickable="false"
+        android:lines="3"
+        android:text="Kérem fontolja meg alaposan szavazatát és várjon 5 másodpercet!" />
+
+    <TextView
+        android:id="@+id/tv_animation_space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="1dp"
+        android:orientation="horizontal">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/bottom_back_button_grey" />
+
+            <Button
+                android:id="@+id/btn_dialog_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/dark_grey"
+                android:enabled="false"
+                android:text="Vissza"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/rectangle_5_ek5_shape" />
+
+            <Button
+                android:id="@+id/btn_vote_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/blue_main"
+                android:enabled="false"
+                android:text="Szavaz"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

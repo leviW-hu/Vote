@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Plan2Activity"
+    tools:showIn="@layout/activity_plan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="232dp"
+                android:layout_marginBottom="15dp"
+                app:srcCompat="@drawable/dog" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Budapesti Állatvédelmi Charta "
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Az ember természetben élő lény. Minden állat és növény része a minket körülvevő komplex ökoszisztémának, létezésük, életük körülményei meghatározzák életünk minőségét. Minden budapesti közös érdeke, hogy ismerje és óvja a körülöttünk élő természetet, a társként velünk élő és a természetben körülöttünk létező állatok létfeltételeit. Ez nem pusztán morális kötelezettségvállalás, de közvetlen érdekünk is: az állati élet minősége visszahat minden budapesti életére is.  Ezért kezdeményezem a"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Budapesti Állatvédelmi Charta létrehozását"
+                    android:textAlignment="center"
+                    android:textColor="#A63F51B5"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="A Budapesti Állatvédelmi Charta  összefoglalja és rögzíti a Budapesten élő állatok értékének és természetes igényeinek elismerését, és összefoglalja azokat a kezdeményezéseket, amelyeket a Budapesten társként és a természetben velünk élő állatokért megteszünk 2019. októberét követően.  Kezdeményezem, hogy aki egyetért a Budapesti Állatvédelmi Charta értékeivel és céljaival budapestiként, Budapesten működő közösségként vagy szervezetként, az fejezze ki támogatását a Chartában foglaltak megvalósítása iránt."
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

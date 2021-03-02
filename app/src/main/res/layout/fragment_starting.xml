@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="8"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="3dp"
+                    android:src="@drawable/man_icon"
+                    app:civ_border="true"
+                    app:civ_border_color="#3f51b5"
+                    app:civ_border_width="3dp"
+                    app:civ_circle_color="#FFFFFF"
+                    app:civ_shadow="false"
+                    app:civ_shadow_color="#3f51b5"
+                    app:civ_shadow_radius="3dp"
+                    tools:civ_circle_color="#FF81C784" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/feed_author"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nagy Géza"
+                        android:textColor="#42A5F5"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView39"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="országgyűlési képviselő"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/feed_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1 napja"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:ellipsize="end"
+                android:lines="3"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non venenatis lacus. Sed imperdiet ornare tincidunt. Mauris id finibus magna, non aliquet ex. Curabitur in ipsum quis tellus suscipit imperdiet sed a augue. Proin ut enim eget nulla porta posuere. In ac euismod sem, nec rhoncus diam. Sed lacinia magna eget malesuada ultricies. Nulla a ex ut felis vehicula eleifend eget non mauris. Nam eget varius erat. Ut non erat eu sem finibus ultricies. Donec semper tortor id odio sagittis, nec lobortis felis venenatis. In porttitor orci ornare, tempor dolor in, vestibulum sem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed sit amet ante varius, pretium nulla in, malesuada ipsum.  " />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/img_profile2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="3dp"
+                    android:src="@drawable/man_icon"
+                    app:civ_border="true"
+                    app:civ_border_color="#3f51b5"
+                    app:civ_border_width="3dp"
+                    app:civ_circle_color="#FFFFFF"
+                    app:civ_shadow="false"
+                    app:civ_shadow_color="#3f51b5"
+                    app:civ_shadow_radius="3dp"
+                    tools:civ_circle_color="#FF81C784" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="dr. Keresztes Lóránt"
+                        android:textColor="#42A5F5"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pécs polgármestere"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3 órája"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:ellipsize="end"
+                android:lines="3"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non venenatis lacus. Sed imperdiet ornare tincidunt. Mauris id finibus magna, non aliquet ex. Curabitur in ipsum quis tellus suscipit imperdiet sed a augue. Proin ut enim eget nulla porta posuere. In ac euismod sem, nec rhoncus diam. Sed lacinia magna eget malesuada ultricies. Nulla a ex ut felis vehicula eleifend eget non mauris. Nam eget varius erat. Ut non erat eu sem finibus ultricies. Donec semper tortor id odio sagittis, nec lobortis felis venenatis. In porttitor orci ornare, tempor dolor in, vestibulum sem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed sit amet ante varius, pretium nulla in, malesuada ipsum.  " />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:gravity="center"
+            android:text="Hírcsatorna megynitása..." />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:weightSum="22">
+
+        <LinearLayout
+            android:id="@+id/ll_firstVoteing"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="10"
+            android:background="#4CAF50"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/vote_image"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:src="@drawable/dog_icon" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="2"
+                android:background="#FFFFFF"
+                android:orientation="vertical"
+                tools:layout_marginEnd="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/vote_location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginEnd="20dp"
+                        android:background="#FF4CAF50"
+                        android:gravity="right"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="PÉCS" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/vote_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="Állatmenhely építés"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/vote_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:lines="3"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacinia commodo justo, sed lobortis magna molestie eu. Suspendisse consectetur ex eget magna porta tincidunt. Sed rutrum imperdiet pulvinar. Integer dui tortor, tempor nec lacinia venenatis, consectetur vitae sem. In hac habitasse platea dictumst. Proin dignissim tempus velit vel mattis. In sed ante semper, euismod lacus at, malesuada tortor. Aliquam semper aliquam lacus, et convallis ipsum convallis ut. Integer euismod vulputate eros, at consectetur sapien volutpat vitae. Donec euismod at nunc eu sodales.  "
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingStart="5dp">
+
+                    <TextView
+                        android:id="@+id/vote_deadline1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Határidő: márc. 20" />
+
+                    <TextView
+                        android:id="@+id/user_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="dr. Keresztes Lóránt"
+                        android:textColor="#3F51B5"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="10"
+            android:background="#FF5722"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/imageView51"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:foreground="@drawable/kerites"
+                android:src="@drawable/dog_icon"
+                app:srcCompat="@drawable/kerites"
+                tools:layout_gravity="center" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="2"
+                android:background="#FFFFFF"
+                android:orientation="vertical"
+                tools:layout_marginEnd="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView91"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginEnd="20dp"
+                        android:background="#FF5722"
+                        android:gravity="right"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="ORSZÁGOS" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="Déli határ megerősítése"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:lines="3"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacinia commodo justo, sed lobortis magna molestie eu. Suspendisse consectetur ex eget magna porta tincidunt. Sed rutrum imperdiet pulvinar. Integer dui tortor, tempor nec lacinia venenatis, consectetur vitae sem. In hac habitasse platea dictumst. Proin dignissim tempus velit vel mattis. In sed ante semper, euismod lacus at, malesuada tortor. Aliquam semper aliquam lacus, et convallis ipsum convallis ut. Integer euismod vulputate eros, at consectetur sapien volutpat vitae. Donec euismod at nunc eu sodales.  "
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingStart="5dp">
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Határidő: márc. 20" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="dr. Keresztes Lóránt"
+                        android:textColor="#3F51B5"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="#E0F7FA"
+            android:gravity="center"
+            android:text="Minden futó választás megtekintése..." />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <LinearLayout
+            android:id="@+id/ll_histVote"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="80"
+            android:background="#4CAF50"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            tools:layout_marginBottom="5dp"
+            tools:layout_marginTop="5dp"
+            tools:layout_weight="80">
+
+            <ImageView
+                android:id="@+id/imageView53"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:foreground="@drawable/dia"
+                android:scrollbarTrackVertical="@drawable/dia"
+                android:src="@drawable/dog_icon"
+                app:srcCompat="@drawable/dia" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="2"
+                android:background="#FFFFFF"
+                android:orientation="vertical"
+                tools:layout_marginEnd="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginEnd="20dp"
+                        android:background="#FF4CAF50"
+                        android:gravity="right"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="PÉCS" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="EU támogatás elköltése"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:lines="3"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacinia commodo justo, sed lobortis magna molestie eu. Suspendisse consectetur ex eget magna porta tincidunt. Sed rutrum imperdiet pulvinar. Integer dui tortor, tempor nec lacinia venenatis, consectetur vitae sem. In hac habitasse platea dictumst. Proin dignissim tempus velit vel mattis. In sed ante semper, euismod lacus at, malesuada tortor. Aliquam semper aliquam lacus, et convallis ipsum convallis ut. Integer euismod vulputate eros, at consectetur sapien volutpat vitae. Donec euismod at nunc eu sodales.  "
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingStart="5dp">
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LEZÁRULT"
+                        android:textAllCaps="false"
+                        android:textColor="#FF0000"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="dr. Keresztes Lóránt"
+                        android:textColor="#3F51B5"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="13"
+            android:background="#E0F7FA"
+            android:gravity="center"
+            android:text="Minden lezárt szavazás megtekintése..."
+            tools:layout_weight="13" />
+
+    </LinearLayout>
+</LinearLayout>

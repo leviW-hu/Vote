@@ -1,0 +1,181 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/a_nemv_gom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="40dp">
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/a_change"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/a_mapView2"
+            app:tabIndicatorColor="@color/blue_main">
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/path_18" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/subtraction_1" />
+
+        </com.google.android.material.tabs.TabLayout>
+
+        <ImageView
+            android:id="@+id/a_image_opt1"
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/csaladi_misina"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/a_mapView2"
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/a_opt1_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="Raleway"
+            android:text="Családi Misina"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_change" />
+
+        <TextView
+            android:id="@+id/a_opt1_main_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="Raleway"
+            android:text="A „Családi Misina” koncepcióterv – ahogy a neve is mutatja – egy olyan családcentrikus, többkorosztályos közösségi teret vázol, ahol a családi együttlét és az ahhoz kapcsolódó aktív és passzív pihenési-szórakoztató funkciók kerülnek előtérbe. Az ide tervezett játszótér kiemelendő sajátossága, hogy a játékok a Misina-tetőre utalva a magasságot szimbolizálják: ezek egyike egy felhő formájú-megjelenésű gyűrű, amelyre különböző játékelemeket függesztenének fel. A fejlesztés legegyedibb eleme mindenképp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_opt1_title" />
+
+
+        <TextView
+            android:id="@+id/a_textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="Raleway"
+            android:text="a lombkoronasétány,"
+            android:textAlignment="center"
+            android:textColor="@color/blue_main"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_opt1_main_text" />
+
+        <TextView
+            android:id="@+id/a_opt1_main_text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="Raleway"
+            android:text="amelynek köszönhetően az épületből sétálhatunk fel a közeli fák lombjai közé. A megvalósítandó családi élményközpontról a következő konkrétumokat érdemes tudni:
+            A fiatal és a felnőtt korosztály számára edzőgépeket és pihenőtereket alakítanának ki, valamint belső és külső játszóterek, játékelemek is készülnének. A volt Misina Étterem épületének átalakításával négy – különböző funkcióval bíró – szinten elégítenék ki az aktív és passzív pihenésre vágyó családok igényeit (például: öltözők, tárolók, gyerekszobák, játszósarkok, pelenkázók). Helyet kapna a túraközpontban "
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_textView11" />
+
+        <TextView
+            android:id="@+id/a_textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="Raleway"
+            android:text="egy pihenőtér is,"
+            android:textAlignment="center"
+            android:textColor="@color/blue_main"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_opt1_main_text2" />
+
+        <TextView
+            android:id="@+id/a_opt1_main_text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="Raleway"
+            android:layout_marginEnd="10dp"
+            android:text="kávézóval és büfével.
+Az épületet és környékét akadálymentesítenék, az épület szintjei lifttel is elérhetők lennének. Csúcs Zoltán, a projektet koordináló Pécsi Városfejlesztési Nonprofit Zrt. vezérigazgatója mindehhez hozzátette, hogy a lombkoronasétány egy olyan jó ötlet, ami a Misina-tetőn önmagában is megállná a helyét és elmondta, hogy elképzeléseik szerint az épület emeleti szintjéről lehetne majd eljutni ezen a sétányon a közeli fák közé, egészen az ingatlan telekhatáráig."            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_textView12" />
+
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/a_szavaz_s_gomb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/a_opt1_main_text3">
+
+            <View
+                android:id="@+id/a_rectangle_5_ek5"
+                android:layout_width="245dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/rectangle_5_ek5_shape" />
+
+            <TextView
+                android:id="@+id/a_szavazok_"
+                android:layout_width="118dp"
+                android:layout_height="47.5dp"
+                android:layout_marginLeft="64dp"
+                android:layout_marginTop="2dp"
+                android:fontFamily="Raleway"
+                android:text="@string/szavazok__string"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

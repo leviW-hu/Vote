@@ -1,0 +1,199 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+	<!--
+    /*
+     *	This content is generated from the API File Info.
+     *	(Alt+Shift+Ctrl+I).
+     *
+     *	@desc
+     *	@file 		bejelentkez_s
+     *	@date 		1613596100397
+     *	@title 		Bejelentkezs
+     *	@author
+     *	@keywords
+     *	@generator 	Export Kit v1.3.xd
+     *
+     */
+    -->
+
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/nemv_gom"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_marginStart="0dp"
+		android:layout_marginTop="0dp"
+		android:layout_marginBottom="40dp">
+
+
+		<com.google.android.material.tabs.TabLayout
+			android:id="@+id/change"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="40dp"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@id/mapView2"
+			app:tabIndicatorColor="@color/blue_main">
+
+			<com.google.android.material.tabs.TabItem
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:icon="@drawable/path_18" />
+
+			<com.google.android.material.tabs.TabItem
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:icon="@drawable/subtraction_1" />
+
+		</com.google.android.material.tabs.TabLayout>
+
+		<ImageView
+			android:id="@+id/image_opt1"
+			android:layout_width="match_parent"
+			android:layout_height="225dp"
+			android:foregroundGravity="top"
+			android:scaleType="centerCrop"
+			android:src="@drawable/aktiv_misina"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<com.google.android.gms.maps.MapView
+			android:id="@+id/mapView2"
+			android:layout_width="match_parent"
+			android:layout_height="225dp"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<TextView
+			android:id="@+id/opt1_title"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="15dp"
+			android:layout_marginTop="10dp"
+			android:fontFamily="Raleway"
+			android:text="Aktív Misina"
+			android:textColor="@color/black"
+			android:textSize="24sp"
+			android:textStyle="bold"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/change" />
+
+		<TextView
+			android:id="@+id/opt1_main_text"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="19dp"
+			android:layout_marginTop="10dp"
+			android:fontFamily="Raleway"
+			android:layout_marginEnd="10dp"
+			android:text="Az „Aktív Misina” koncepcióterv egy olyan mozgás- és túraközpontot vázol, amely a természetjárók és sportolni vágyók minden igényét kielégíti. A fejlesztéssel minden korosztály megtalálhatja majd itt a számára legideálisabb sportolási vagy mozgási helyszínt és megoldást az egykori Misina Étterem épületétől déli irányban, a természetben. A túraközpont kialakításával a cél az, hogy új szintre emeljék"
+			android:textColor="@color/black"
+			android:textSize="16sp"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/opt1_title" />
+
+
+		<TextView
+			android:id="@+id/textView11"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="20dp"
+			android:layout_marginEnd="10dp"
+			android:layout_marginTop="5dp"
+			android:fontFamily="Raleway"
+			android:text="a Mecseki Parkerdő és a pécsiek, valamint a Pécsre látogatók kapcsolatát."
+			android:textAlignment="center"
+			android:textColor="@color/blue_main"
+			android:textSize="20sp"
+			android:textStyle="italic"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/opt1_main_text" />
+
+		<TextView
+			android:id="@+id/opt1_main_text2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="19dp"
+			android:layout_marginTop="5dp"
+			android:layout_marginEnd="10dp"
+			android:fontFamily="Raleway"
+			android:text="A megvalósítandó többfunkciós túraközpontról a következő konkrétumokat érdemes tudni:
+A központi épület alagsorában öltözők, csomagmegőrzők, zuhanyzók, mosdók kerülnének kialakítására. Lehetne itt majd sporteszközt is kölcsönözni (pl. túrakerékpárokat, elektromos túrakerékpárokat, downhill bringákat, háromkerekű Gravity Coastereket, nordic walking botokat). Hibás, elromlott sporteszközeinket a központban meg is javíttathatnánk.
+Helyet kapna a túraközpontban egy pihenőtér is, kávézóval és büfével. Itt a belső terekben a faanyagok dominálnának letisztult megjelenésben. Az épületet és környékét"
+			android:textColor="@color/black"
+			android:textSize="16sp"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+		<TextView
+			android:id="@+id/textView12"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="20dp"
+			android:layout_marginEnd="10dp"
+			android:layout_marginTop="5dp"
+			android:fontFamily="Raleway"
+			android:text="akadálymentesítenék,"
+			android:textAlignment="center"
+			android:textColor="@color/blue_main"
+			android:textSize="20sp"
+			android:textStyle="italic"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/opt1_main_text2" />
+
+		<TextView
+			android:id="@+id/opt1_main_text3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="19dp"
+			android:layout_marginTop="5dp"
+			android:fontFamily="Raleway"
+			android:layout_marginEnd="10dp"
+			android:text=" az épület szintjei lifttel is elérhetők lennének. Csúcs Zoltán, a projektet koordináló Pécsi Városfejlesztési Nonprofit Zrt. vezérigazgatója mindehhez hozzátette, hogy a pályázatra nagyon sok olyan terv érkezett, amelyek a sportolást, a mecseki erdőjárást helyezték előtérbe, ezért egyértelmű volt, hogy az egyik koncepciótervet is ennek tükrében dolgozzák ki. Mint mondta, szóba jöhet még, hogy a három beérkezett pályamű alapján készült „Aktív Misina” koncepció része lehetne még egy jógaközpont is."
+			android:textColor="@color/black"
+			android:textSize="16sp"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+
+
+
+
+		<RelativeLayout
+			android:id="@+id/szavaz_s_gomb"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="65dp"
+			android:layout_marginTop="15dp"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@id/opt1_main_text3">
+
+			<View
+				android:id="@+id/rectangle_5_ek5"
+				android:layout_width="245dp"
+				android:layout_height="40dp"
+				android:layout_marginStart="0dp"
+				android:layout_marginLeft="0dp"
+				android:layout_marginTop="0dp"
+				android:background="@drawable/rectangle_5_ek5_shape" />
+
+			<TextView
+				android:id="@+id/szavazok_"
+				android:layout_width="118dp"
+				android:layout_height="47.5dp"
+				android:layout_marginLeft="64dp"
+				android:layout_marginTop="2dp"
+				android:fontFamily="Raleway"
+				android:text="@string/szavazok__string"
+				android:textColor="@color/white"
+				android:textSize="25sp"
+				android:textStyle="bold" />
+
+		</RelativeLayout>
+
+	</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

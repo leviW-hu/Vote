@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VoteHistoryActivity">
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/vote_hist_imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@color/white"
+                android:scaleType="centerInside"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/vissza"
+                />
+            <ImageButton
+                android:id="@+id/vote_hist_imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_marginEnd="10dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:srcCompat="@drawable/keres_"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.navigation.NavigationView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Budapesti Állatvédelmi Charta "
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5dp"
+                android:text="Az állatvédelmi charta összefoglalja és rögzíti a Budapesten élő állatok értékének és természetes igényeinek elismerését, és összefoglalja azokat a kezdeményezéseket, amelyeket a Budapesten társként és a természetben velünk élő állatokért megteszünk. \nA szavazás az állatvédelmi charta létrehozásáról szólt, azt támogatni és elutasítani lehetett."
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/iv_graph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/result1" />
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:icon="@drawable/result_icon" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:icon="@drawable/chart_icon" />
+
+            </com.google.android.material.tabs.TabLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingEnd="15dp"
+                        android:text="1. Támogatja: "
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingEnd="15dp"
+                        android:text="65728 fő"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="65,7%"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. Ellenzi: "
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="35729 fő"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="34,3%"
+                        android:textSize="18sp" />
+                </TableRow>
+
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="15dp"
+                        android:text="A szerző \n az eredményről"
+                        android:textColor="@color/blue_main"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <com.mikhaellopez.circularimageview.CircularImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:src="@drawable/man_icon"
+                        app:civ_border="true"
+                        app:civ_border_color="#3f51b5"
+                        app:civ_border_width="3dp"
+                        app:civ_circle_color="#FFFFFF"
+                        app:civ_shadow="false"
+                        app:civ_shadow_color="#3f51b5"
+                        app:civ_shadow_radius="3dp"
+                        tools:civ_circle_color="#FF81C784"
+                        tools:layout_gravity="center" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center|center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/feed_author"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Nagy Géza"
+                            android:textColor="#42A5F5"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView39"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="polgármester, 5. kerület"
+                            android:textSize="10sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="Tisztelt választópolgárok! \n Köszönöm véleményüket a kérdéskörben, a beérkező szavazatok alapján egyértelműen igény van a Budapesti Állat Charta létrehozására. A szükséges egyeztetéseket az illetkées szervekkel megkezdem, a kérdés felvételét a következő közgyűlés napirendi pontjai közé indítványozom. \n A javaslatot várhatóan áprilisban tudja a közgyűlés elfogadni. A  fejleményekről továbbra is tájékoztatni fogom Önöket!" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Intézkedések"
+                        android:textColor="@color/blue_main"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="1. A Budapesti Állat Charta létrehozása felvételre került a február 17-é tartandó közgyűlés napirendjére" />
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="2. A közgyűlés elfogadta a javaslatot" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

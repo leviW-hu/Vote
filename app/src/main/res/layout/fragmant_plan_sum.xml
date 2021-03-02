@@ -1,0 +1,317 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		bejelentkez_s
+	 *	@date 		1613596100397
+	 *	@title 		Bejelentkezs
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.xd
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/szavaz_s" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_szavaz_s_ek2"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View android:id="@+id/_bg__szavaz_s_ek3"
+					android:background="@drawable/_bg__szavaz_s_ek3_shape"
+					 android:layout_marginLeft="0dp"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="374dp"
+					android:layout_height="1615dp" />
+
+
+				<RelativeLayout android:id="@+id/be_ll_t_s_ek1"
+					android:layout_marginTop="27dp"
+					android:layout_marginStart="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/path_14_ek2"
+						android:src="@drawable/path_14_ek2"
+						android:contentDescription="path_14_ek2"
+						 android:layout_marginLeft="-1dp"
+						 android:layout_marginStart="-1dp"
+						android:layout_marginTop="-1dp"
+						android:layout_width="28.71728515625dp"
+						android:layout_height="28.711185455322dp" />
+
+				</RelativeLayout>
+
+				<TextView android:id="@+id/_llatmenhely__p_t_s_ek1"
+					android:fontFamily="Raleway"
+					android:textStyle="bold"
+					android:textSize="24sp"
+					android:textColor="@color/black"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="249dp"
+					android:layout_width="336dp"
+					android:layout_height="46dp"
+					android:text="@string/_llatmenhely__p_t_s_ek1_string"
+					 />
+
+				<ImageView android:id="@+id/menhely_k_p_ek1"
+					android:src="@drawable/menhely_k_p_ek1"
+					android:contentDescription="menhely_k_p_ek1"
+					 android:layout_marginLeft="0dp"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="64dp"
+					android:layout_width="375dp"
+					android:layout_height="166dp" />
+
+
+				<RelativeLayout android:id="@+id/szavaz_s_head"
+					android:layout_marginTop="0dp"
+					android:layout_marginStart="0dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View android:id="@+id/rectangle_6_ek2"
+						android:background="@drawable/rectangle_6_ek2_shape"
+						 android:alpha="0.9"
+						 android:layout_marginLeft="0dp"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="375dp"
+						android:layout_height="64dp" />
+
+					<ImageView android:id="@+id/vissza"
+						android:src="@drawable/vissza"
+						android:contentDescription="vissza"
+						 android:layout_marginLeft="21dp"
+						 android:layout_marginStart="21dp"
+						android:layout_marginTop="30dp"
+						android:layout_width="16.81884765625dp"
+						android:layout_height="22.641010284424dp" />
+
+					<ImageView android:id="@+id/keres__ek1"
+						android:src="@drawable/keres__ek1"
+						android:contentDescription="keres__ek1"
+						 android:layout_marginLeft="334dp"
+						 android:layout_marginStart="334dp"
+						android:layout_marginTop="29dp"
+						android:layout_width="21.43994140625dp"
+						android:layout_height="23.396991729736dp" />
+
+				</RelativeLayout>
+
+				<TextView android:id="@+id/lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua__risus_feugiat_in_ante_metus_dictum_at_tempor_commodo__praesent_semper_feugiat_nibh_sed_pulvinar_proin_gravida_hendrerit_lectus__eges"
+					android:fontFamily="Raleway"
+					android:textSize="18sp"
+					android:textColor="@color/black"
+					android:layout_marginLeft="19dp"
+					android:layout_marginTop="294dp"
+					android:layout_width="336dp"
+					android:layout_height="1194dp"
+					android:text="@string/lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua__risus_feugiat_in_ante_metus_dictum_at_tempor_commodo__praesent_semper_feugiat_nibh_sed_pulvinar_proin_gravida_hendrerit_lectus__eges_string"
+					 />
+
+
+				<RelativeLayout android:id="@+id/pipaicon_ek2"
+					android:layout_marginTop="634dp"
+					android:layout_marginStart="126dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/path_6_ek2"
+						android:src="@drawable/path_6_ek2"
+						android:contentDescription="path_6_ek2"
+						 android:layout_marginLeft="-1dp"
+						 android:layout_marginStart="-1dp"
+						android:layout_marginTop="-1dp"
+						android:layout_width="26.776611328125dp"
+						android:layout_height="26.776611328125dp" />
+
+					<ImageView android:id="@+id/path_7_ek2"
+						android:src="@drawable/path_7_ek2"
+						android:contentDescription="path_7_ek2"
+						 android:layout_marginLeft="5dp"
+						 android:layout_marginStart="5dp"
+						android:layout_marginTop="6dp"
+						android:layout_width="16.0791015625dp"
+						android:layout_height="13.226379394531dp" />
+
+				</RelativeLayout>
+
+				<TextView android:id="@+id/nagy_j_zsef"
+					android:fontFamily="Raleway"
+					android:textStyle="bold"
+					android:textSize="13sp"
+					android:textColor="@color/blue_main"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="278dp"
+					android:layout_width="75dp"
+					android:layout_height="24.5dp"
+					android:text="@string/nagy_j_zsef_string"
+					 />
+
+				<ImageView android:id="@+id/line_1"
+					android:src="@drawable/line_1"
+					android:contentDescription="line_1"
+					 android:layout_marginLeft="101dp"
+					 android:layout_marginStart="101dp"
+					android:layout_marginTop="280dp"
+					android:layout_width="1dp"
+					android:layout_height="12dp" />
+
+				<TextView android:id="@+id/marcius_6"
+					android:fontFamily="Raleway"
+					android:textStyle="bold"
+					android:textSize="13sp"
+					android:textColor="@color/gray_light"
+					android:layout_marginLeft="108dp"
+					android:layout_marginTop="278dp"
+					android:layout_width="60dp"
+					android:layout_height="24.5dp"
+					android:text="@string/marcius_6_string"
+					 />
+
+				<View android:id="@+id/ellipse_3"
+					android:background="@drawable/ellipse_3_shape"
+					 android:layout_marginLeft="312dp"
+					 android:layout_marginStart="312dp"
+					android:layout_marginTop="564dp"
+					android:layout_width="52dp"
+					android:layout_height="52dp" />
+
+
+				<RelativeLayout android:id="@+id/bel_p_s_gomb"
+					android:layout_marginTop="1504dp"
+					android:layout_marginStart="65dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View android:id="@+id/rectangle_5_ek4"
+						android:background="@drawable/rectangle_5_ek4_shape"
+						 android:layout_marginLeft="0dp"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="245dp"
+						android:layout_height="40dp" />
+
+					<TextView android:id="@+id/lehet_s_gek"
+						android:fontFamily="Raleway"
+						android:textStyle="bold"
+						android:textSize="25sp"
+						android:textColor="@color/white"
+						android:layout_marginLeft="45dp"
+						android:layout_marginTop="5dp"
+						android:layout_width="156dp"
+						android:layout_height="47.5dp"
+						android:text="@string/lehet_s_gek_string"
+						 />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/component_15___1"
+					android:layout_marginTop="642dp"
+					android:layout_marginStart="0dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View android:id="@+id/rectangle_16"
+						android:background="@drawable/rectangle_16_shape"
+						 android:layout_marginLeft="0dp"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="1dp"
+						android:layout_width="375dp"
+						android:layout_height="24dp" />
+
+					<View android:id="@+id/rectangle_17"
+						android:background="@drawable/rectangle_17_shape"
+						 android:layout_marginLeft="0dp"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="69dp"
+						android:layout_height="24dp" />
+
+					<View android:id="@+id/rectangle_18"
+						android:background="@drawable/rectangle_18_shape"
+						 android:layout_marginLeft="69dp"
+						 android:layout_marginStart="69dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="69.4dp"
+						android:layout_height="24.4dp" />
+
+					<View android:id="@+id/rectangle_19"
+						android:background="@drawable/rectangle_19_shape"
+						 android:layout_marginLeft="138dp"
+						 android:layout_marginStart="138dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="70.4dp"
+						android:layout_height="24.4dp" />
+
+					<View android:id="@+id/rectangle_20"
+						android:background="@drawable/rectangle_20_shape"
+						 android:layout_marginLeft="208dp"
+						 android:layout_marginStart="208dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="69.4dp"
+						android:layout_height="24.4dp" />
+
+					<View android:id="@+id/rectangle_21"
+						android:background="@drawable/rectangle_21_shape"
+						 android:layout_marginLeft="277dp"
+						 android:layout_marginStart="277dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="69.4dp"
+						android:layout_height="24.4dp" />
+
+
+					<RelativeLayout android:id="@+id/group_13"
+						android:layout_marginTop="9dp"
+						android:layout_marginStart="352dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<ImageView android:id="@+id/path_19"
+							android:src="@drawable/path_19"
+							android:contentDescription="path_19"
+							 android:layout_marginLeft="-1dp"
+							 android:layout_marginStart="-1dp"
+							android:layout_marginTop="-1dp"
+							android:layout_width="18.99755859375dp"
+							android:layout_height="10.146118164062dp" />
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

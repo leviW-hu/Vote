@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contraint_layout_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:id="@+id/header_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFA726"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:visibility="gone"
+        android:weightSum="3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center|end"
+            android:text="Dr. Nagy Zalán"
+            android:textColor="#000000"
+            android:textSize="28sp" />
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/circularImageView_profile_small"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="start|right"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/man_icon"
+            app:civ_border="false"
+            app:civ_border_color="#3f51b5"
+            app:civ_border_width="3dp"
+            app:civ_circle_color="#FFFFFF"
+            app:civ_shadow="false"
+            app:civ_shadow_color="#3f51b5"
+            app:civ_shadow_radius="3dp"
+            tools:civ_circle_color="#FF81C784"
+            tools:layout_weight="1" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/header_big"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/ll1_profile"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="#FFFFA726"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"></LinearLayout>
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/circularImageView_profile"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/man_icon"
+            app:civ_border="true"
+            app:civ_border_color="#3f51b5"
+            app:civ_border_width="3dp"
+            app:civ_circle_color="#FFFFFF"
+            app:civ_shadow="false"
+            app:civ_shadow_color="#3f51b5"
+            app:civ_shadow_radius="3dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:civ_circle_color="#FF81C784"
+            tools:layout_gravity="center" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ll1_profile">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pécs"
+                    android:textColor="#3f51b5"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Polgármester"
+                    android:textColor="#3f51b5"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:gravity="end"
+                    android:text="FIDESZ"
+                    android:textColor="#3f51b5"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="15dp"
+                    android:gravity="end"
+                    android:text="1968.01.22"
+                    android:textColor="#3f51b5"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Dr. Nagy Zalán"
+            android:textColor="#000000"
+            android:textSize="28sp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="245dp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="20dp"
+            android:background="#FF000000"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"></LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header_big" />
+
+    <androidx.viewpager.widget.ViewPager
+
+        android:id="@+id/viewPager_profile"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabLayout_profile" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

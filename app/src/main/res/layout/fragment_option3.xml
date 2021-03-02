@@ -1,0 +1,149 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/c_nemv_gom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="40dp">
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/c_change"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/c_mapView2"
+            app:tabIndicatorColor="@color/blue_main">
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/path_18" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/subtraction_1" />
+
+        </com.google.android.material.tabs.TabLayout>
+
+        <ImageView
+            android:id="@+id/c_image_opt1"
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/interaktiv_misina"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/c_mapView2"
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/c_opt1_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="Raleway"
+            android:text="Interaktív Misina"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/c_change" />
+
+        <TextView
+            android:id="@+id/c_opt1_main_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="Raleway"
+            android:layout_marginEnd="10dp"
+            android:text="Az „Interaktív Misina” koncepcióterv egy olyan interaktív kiállítóteret vázol, amelyben a főszerepet a mecseki és a pécsi bányászat története és érdekességei játszák, ugyanakkor természetesen emellett más tárlatok bemutatására is sor kerülhetne itt. A kiállítótér létrehozásával a fenntarthatóság fontosságát, az ökologikus szemléletmódot hangsúlyoznák. A megvalósítandó kiállító- és kulturális központról a következő konkrétumokat érdemes tudni:
+             A volt Misina Étterem épületéből háromszintes kiállítótér jönne létre tematikus kiállítási felületekkel. Elsődlegesen"
+
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/c_opt1_title" />
+
+
+        <TextView
+            android:id="@+id/c_textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="Raleway"
+            android:text="a Mecsek természeti erőforrásait"
+            android:textAlignment="center"
+            android:textColor="@color/blue_main"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/c_opt1_main_text" />
+
+        <TextView
+            android:id="@+id/c_opt1_main_text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="Raleway"
+            android:text="mutatnák itt be, a szén-, valamint az uránbányászattól indulva egészen a megújuló energiaforrások használatáig. Egy bányászati liftet imitáló szerkezet vinné fel a helyszínre látogatókat a bányászati múzeumi részbe, ahol makettek és hangeffektes előadások segítségével mutatnák be a különböző bányászati folyamatokat (például robbantásokat, kőfejtést). Egy megérinthető, „tapogatós” periódusos rendszer ismertetné meg az érdeklődőkkel az ásványokat. A fejlesztés többnyire a belső terek kialakítására összpontosít, az épületen kívül csak néhány szabadtéri installációt helyeznének el. Helyet kapna a túraközpontban egy pihenőtér is, kávézóval és büfével. Az épületet és környékét akadálymentesítenék, az épület szintjei lifttel is elérhetők lennének.
+Csúcs Zoltán, a projektet koordináló Pécsi Városfejlesztési Nonprofit Zrt. vezérigazgatója mindehhez hozzátette, hogy mivel ezzel a témával több pályázat is foglalkozott, ezért szükségesnek érezték, hogy egy bányászati tematikájú koncepciót is szavazásra bocsátsanak. A bányászati kiállítóteret egyébként az alagsorba és a földszintre terveznék, az emelten pedig a megújuló energiaforrásokat bemutató interaktív tárlatot látogathatnák meg az érdeklődők – mondta."
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/c_textView11" />
+
+        <RelativeLayout
+            android:id="@+id/c_szavaz_s_gomb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/c_opt1_main_text2">
+
+            <View
+                android:id="@+id/c_rectangle_5_ek5"
+                android:layout_width="245dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/rectangle_5_ek5_shape" />
+
+            <TextView
+                android:id="@+id/c_szavazok_"
+                android:layout_width="118dp"
+                android:layout_height="47.5dp"
+                android:layout_marginLeft="64dp"
+                android:layout_marginTop="2dp"
+                android:fontFamily="Raleway"
+                android:text="@string/szavazok__string"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
